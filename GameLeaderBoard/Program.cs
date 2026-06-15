@@ -171,7 +171,7 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseGlobalException();
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseCors("ReactPolicy");
 app.UseAuthentication();
